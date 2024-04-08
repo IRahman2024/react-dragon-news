@@ -12,11 +12,12 @@ const LeftSideNav = () => {
 
 
     return (
-        <div>
+        <div className="grid">
             <h1 className="text-2xl">All category</h1>
             {
                 categories.map((category, idx) =>{
-                    <Link key={idx}>{category.name}</Link>
+                    return <Link className="p-4 text-xl font-semibold hover:bg-slate-500" 
+                    to={`/category/${category.id}`} key={idx}>{category.name}</Link>
                 })
             }
         </div>

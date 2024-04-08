@@ -24,15 +24,16 @@ const RightSideNav = () => {
             </div>
             <div className="grid mt-2">
                 <p className="font-semibold text-2xl">Connect With Us</p>
-                <a className="flex items-center p-5 border rounded-t-lg" href="https://facebook.com">
+                <a className="flex items-center p-5 border rounded-t-lg hover:bg-blue-600" href="https://facebook.com">
                     <FaFacebook />
                     Facebook
                 </a>
-                <a className="flex items-center p-5" href="https://Twitter.com">
+                <a className="flex items-center p-5 hover:bg-blue-300" href="https://Twitter.com">
                     <FaTwitter />
                     Twitter
                 </a>
-                <a className="flex items-center p-5 border rounded-b-lg" href="https://instagram.com">
+                <a className="flex items-center p-5 border rounded-b-lg
+                hover:bg-[#ca18db]" href="https://instagram.com">
                     <FaInstagram />
                     Instagram
                 </a>
